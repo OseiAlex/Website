@@ -1,0 +1,40 @@
+/**{
+    margin:0px;
+    padding:0px;
+}
+*/
+body{
+    background-color:#f4f4f4;
+    color:#555555;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    /* Same as above */
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto; 
+}
+
+.box1{
+    background-color:#333333;
+    color: white;
+
+    border-right:5px red solid;
+    border-left:5px red solid;
+    border-top:5px red solid;
+    border-bottom:5px red solid;
+    border-width:3px;
+    border-bottom-width:10px;
+    border-top-style:groove;
+    /* Same as above */
+    border: 5px red solid;
+
+    padding-top:20px;
+}
