@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+    </head>
+    <body>
+        <center><h1 style="color:red">Employee Registration</h1></center>
+        <form>
+            <center><table width="700px">
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="radio" value="mr"/>Mr
+                        <input type="radio" value="mrs"/>Mr
+                        <input type="radio" value="ms"/>Mr
+                    </td>
+                </tr>
+                <tr>
+                    <td>First name:</td>
+                    <td><input type="text" placeholder="First name" size="40" name="fname" required/></td>
+                </tr>
+                <tr>
+                    <td>Last name:</td>
+                    <td><input type="text" placeholder="Last name" size="40" name="sname"required/></td>
+                </tr>
+                <tr>
+                    <td>Contact Number:</td>
+                    <td><input type="text" placeholder="Contact Number" size="40" name="tnumb" required/></td>
+                </tr>
+                <tr>
+                    <td>Birthday:</td>
+                    <td><input type="date" size="40" name="bday" required/></td>
+                </tr>
+                
+                <tr>
+                    <td>City:</td>
+                    <td><input type="text" placeholder="city" size="40" name="city" required/></td>
+                </tr>
+                <tr>
+                    <td>Mailing Address:</td>
+                    <td><input type="text" placeholder="Mailing Address" size="40" name="maddress" required/></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="text" placeholder="E-mail address" size="40" name="maddress" required/></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" placeholder="User name" size="40" name="username"required/></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" placeholder="Password" name="pword" size="40" required/></td>
+                </tr>
+                <tr>
+                    <td>Upload Photo:</td>
+                    <td><input type="file" accept="image/*" name="photo" size="40" required/></td>
+                </tr>
+                <tr>
+                    <td>Zip:</td>
+                    <td><input type="text" placeholder="zip code" name="zip" size="40" required/></td>
+                </tr>
+                <tr>
+                    <td valign="top">Languages Known</td>
+                    <td>
+                        <input type="checkbox" name="English" value="English"/>English<br>
+                        <input type="checkbox" name="French" value="French"/>French<br>
+                        <input type="checkbox" name="Spanish" value="Spanish"/>Spanish<br>
+                        <input type="checkbox" name="Portuguese" value="Portuguese" />Portuguese
+                    </td>
+                </tr>
+                <tr>
+                    <td>Region</td>
+                    <td>
+                        <select required>
+                            <option value="0">Select your Region</option>
+                            <option value="01">Ashanti Region</option>
+                            <option value="02">Brong Ahafo Region</option>
+                            <option value="03">Central Region</option>
+                            <option value="04">Eastern Region</option>
+                            <option value="05">Greater Accra Region</option>
+                            <option value="06">Northern Region</option>
+                            <option value="07">Upper East Region</option>
+                            <option value="08">Upper West Region</option>
+                            <option value="09">Volta Region</option>
+                            <option value="10">Western Region</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Additional Information:</td>
+                    <td>
+                        <textarea cols="40" rows="7" placeholder="additional information"></textarea>
+                        <br>
+                        <br>
+                        <input type="submit" value="submit"/>
+                        <input type="reset" value="reset"/>
+                    </td>
+                </tr>
+            </table>
+            </center>
+        </form>
+    </body>
+</html>
