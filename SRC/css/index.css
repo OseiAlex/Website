@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #000000;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: "Core Sans N W01 35 Light";
+  font-weight: normal;
+  color: #000000;
+  margin: .67em 0;
+  display: block;
+}
+
+.head{
+    color: #ffffff
+}
+
+
+.module{
+  position:relative;
+  top:10%;    
+  height:65%;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.form{
+    color: #ffffff;
+}
+
+#cl{
+    color: #000000;
+}
+.form a:visited{
+    color: #a9a9a9;
+}
+
+.form a{
+    color: #daa520;
+}
+
+.form a:hover{
+   color: #00ff00;
+
+}
+
+.body-content{
+  top:60px;
+  height:700px;
+  width:800px;
+  margin-left:auto;
+  margin-right:auto; 
+  background: transparent;
+  overflow: auto;
+}
+
+a:visited{
+    color: #4b3c18;
+}
+
+a:hover {
+  color: #32cd32;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background-color: #000fff;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a:hover {
+    background-color: #388e8e;
+}
+
+.navbar li a.active {
+    background-color: #668b86;
+}
+
+.navbar li a {
+    display: grid;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+    color: #03440b;
+}
+
+.picture{
+    margin: 10px 0 20px 0;
+}
+
+.jumbo img.image {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 500pt;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.footer{
+    background: #000fff;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.footer .content{
+    padding: 24pt;
+}
